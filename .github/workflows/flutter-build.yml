@@ -23,7 +23,7 @@ jobs:
     - name: Install Flutter
       uses: subosito/flutter-action@v2
       with:
-        flutter-version: '3.10.0'
+        flutter-version: '2.15.1' # Replace this with the specific version you used in 2022
 
     - name: Flutter Pub Get
       run: flutter pub get
